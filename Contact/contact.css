@@ -1,0 +1,145 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+  background: rgb(30, 30, 40);
+  margin: 0px;
+  padding: 0px;
+}
+form {
+  max-width: 420px;
+  margin: 50px auto;
+}
+
+.container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: radial-gradient(white, #fd5b78);
+  font-family: "Nova Round";
+}
+
+.container li {
+  float: left;
+}
+.container img {
+  float: left;
+  height: 50px;
+}
+.container li a {
+  display: block;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.container li a:hover {
+  color: white;
+  transition: 0.5s;
+}
+.container .title {
+  padding-right: 600px;
+}
+
+.name {
+  margin-right: 100px;
+}
+.contact {
+  color: white;
+  font-family: "Nova Round";
+  text-align: center;
+}
+.feedback-input {
+  color: white;
+  font-family: "Nova Round";
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 2px solid #fd5b78;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.feedback-input:focus {
+  border: 2px solid lightskyblue;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+
+[type="submit"] {
+  font-family: "Nova Round";
+  width: 100%;
+  background: #fd5b78;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: 0.5s;
+  margin-top: -4px;
+  font-weight: 700;
+}
+[type="submit"]:hover {
+  background: radial-gradient(white, #fd5b78);
+}
+
+footer {
+  justify-content: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  min-height: 30px;
+  text-decoration: none;
+  color: white;
+  font-family: "Nova Round";
+  padding-top: 85px;
+}
+footer img {
+  height: 50px;
+  position: relative;
+  top: 15px;
+}
+
+footer .copyright {
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 50;
+  color: #60efbc;
+  transition: 0.5s;
+}
+
+a {
+  color: #fd5b78;
+}
